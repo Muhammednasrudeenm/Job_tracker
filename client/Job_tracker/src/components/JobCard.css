@@ -1,0 +1,104 @@
+.job-card {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+}
+
+.job-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.job-company {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.job-position {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.job-date {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.job-status select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 80px;
+  text-align: center;
+}
+
+.status-Applied { background-color: #3498db; }
+.status-Interview { background-color: #f1c40f; }
+.status-Offer { background-color: #2ecc71; }
+.status-Rejected { background-color: #e74c3c; }
+.status-Withdrawn { background-color: #95a5a6; }
+
+.job-notes {
+  padding: 12px;
+  background-color: #f5f6fa;
+  border-left: 4px solid #3498db;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.job-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.job-buttons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  width: 100px;
+  margin-left: 393px;
+}
+
+.update-btn { background-color: #3498db; color: white; }
+.update-btn:hover { background-color: #2980b9; }
+
+.save-btn { background-color: #2ecc71; color: white; }
+.save-btn:hover { background-color: #27ae60; }
+
+.cancel-btn { background-color: #e74c3c; color: white; }
+.cancel-btn:hover { background-color: #c0392b; }
+
+.delete-btn { background-color: #e74c3c; color: white; }
+.delete-btn:hover { background-color: #c0392b; }
