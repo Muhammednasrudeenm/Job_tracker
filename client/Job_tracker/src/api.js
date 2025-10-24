@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'job-tracker-six-eta.vercel.ap',
+  baseURL: 'https://job-tracker-1-ybir.onrender.com'
 });
 
 export default api;
